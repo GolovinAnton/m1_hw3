@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .1s ease-in;}
+html, body {
+	height: 100%;	
+}	
+body {
+	background-color: #3B3F45;
+	font-size: 26px;
+	font-family: Trebuchet MS, Trebuchet, Arial, sans-serif;
+	color: #F9F9F8;
+}
+header {
+	margin-bottom: 30px;
+}
+header, footer {
+	background-color: #4A4F56;
+	color: #EB7E7F;
+	text-align: center;
+	padding: 50px 0 20px 0;
+	font-size: 20px;
+}
+header {
+	margin-bottom: 30px; 
+}
+footer {
+	padding: 20px 0;
+}
+ .list, footer {
+	margin: 0 auto;
+	width: 50%;
+}
+.list {
+	margin-bottom: 30px;
+	list-style-type: none;
+}
+.list li {
+	background-color: #88839E
+}
+.list li:nth-child(even) {
+	background-color: #7A7593
+}
+.list label {
+	cursor: pointer;
+	display: block;
+	padding: 10px;
+}
+.list li:hover {
+  background: #625e77;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.list label:active {
+	background-color: #EB7E7F;
+	}
+.list input[type="checkbox"]:checked ~ span {
+	color: #A49E82;
+	text-decoration: line-through;
+}
+.list input[type="checkbox"]:checked ~ small {
+	color: #A49E82;
+	text-decoration: line-through;
+}
+.item, .note {
+	vertical-align: middle;
+}
+.note {
+	font-size: 14px;	
+}
+.not11111111111111e::before {
+	content: "(";
+}
+.note::after {
+	content: ")";
+}
+.note:empty::before,
+.note:empty::after {
+	content: ""
+}
